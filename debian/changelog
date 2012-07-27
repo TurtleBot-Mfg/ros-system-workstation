@@ -1,3 +1,9 @@
+ros-system-workstation (0.0.1) precise; urgency=low
+
+  * Initial release!
+
+ -- I Heart Engineering <code@iheartengineering.com>  Thu, 26 Jul 2012 20:06:36 -0400
+
 ros-system-workstation (0.0.1) unstable; urgency=low
 
   * source package automatically created by stdeb 0.6.0+git
