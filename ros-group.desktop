@@ -1,0 +1,58 @@
+[Desktop Entry]
+Name=ROS
+GenericName=ROS
+Comment=Robot Operating System
+Icon=ros-tool
+Exec=bash -i -c "rostopic list >& /dev/null && rxconsole || zenity --error --title \"rxconsole\" --text=\"Failed to contact master at $ROS_MASTER_URI\""
+Terminal=false
+Keywords=Science;Education;Robotics;Robot;
+Categories=Development;Science;Education;
+X-Ubuntu-Category-Secondary=Robotics;
+StartupNotify=true
+Type=Application
+Version=1.0
+X-DCOP-ServiceType=none
+X-KDE-SubstituteUID=false
+X-KDE-Username=
+
+X-Ayatana-Desktop-Shortcuts=NetworkID;Rviz;Gazebo;RXConsole;Reconfigure;
+
+[NetworkID Shortcut Group]
+Exec=bash -i -c ros-network-id
+Name=ROS Network ID
+GenericName=Robot Network Identification
+Comment=Provides the ROS Master URI
+Terminal=false
+TargetEnvironment=Unity
+
+[Rviz Shortcut Group]
+Exec=bash -i rosrun rviz rviz
+Name=rviz
+GenericName=3D Robotics Visualization Tool
+Comment=3D Data Visualization tool for ROS
+Terminal=false
+TargetEnvironment=Unity
+
+[Gazebo Shortcut Group]
+Exec=bash -i -c "roslaunch gazebo_worlds empty_world.launch"
+Name=gazebo
+GenericName=Robotics Simulator
+Comment=Gazebo 3D simulator for Robotics
+Terminal=false
+TargetEnvironment=Unity
+
+[RXConsole Shortcut Group]
+Exec=bash -i -c "rostopic list >& /dev/null && rxconsole || zenity --error --title \"rxconsole\" --text=\"Failed to contact master at $ROS_MASTER_URI\""
+Name=rxconsole
+GenericName=Console Log Viewer
+Comment=ROS graphical console
+Terminal=false
+TargetEnvironment=Unity
+
+[Reconfigure Shortcut Group]
+Exec=bash -i -c "/opt/ros/\\`rosversion -d\\`/bin/rosrun dynamic_reconfigure reconfigure_gui"
+Name=dynamic_reconfigure
+GenericName=dynamic_reconfigure Configuration Tool
+Comment=Configuration Tool for ROS Node Parameters
+Terminal=false
+TargetEnvironment=Unity

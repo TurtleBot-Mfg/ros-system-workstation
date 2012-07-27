@@ -1,0 +1,18 @@
+[Desktop Entry]
+Name=rxgraph
+GenericName=Graph Viewer
+Comment=Node Graph viewer for ROS
+
+Icon=ros-rx
+
+Exec=bash -i -c "rxgraph"
+Terminal=false
+
+Categories=Development;Science;Education;
+X-Ubuntu-Category-Secondary=Robotics;
+StartupNotify=true
+Type=Application
+Version=1.0
+X-DCOP-ServiceType=none
+X-KDE-SubstituteUID=false
+X-KDE-Username=

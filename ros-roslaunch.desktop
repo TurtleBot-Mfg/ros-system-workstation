@@ -1,0 +1,19 @@
+[Desktop Entry]
+Name=roslaunch
+GenericName=ROS Launch
+Comment=Provides the required nodes for running ROS
+
+Icon=ros-tool
+Keywords=Science;Education;Robotics;Robot;
+Exec=bash -c "source /opt/ros/fuerte/setup.bash && roslaunch %u"
+Terminal=true
+MimeType=application/x-ros-launch;
+
+Categories=Development;Science;Education;
+X-Ubuntu-Category-Secondary=Robotics;
+StartupNotify=true
+Type=Application
+Version=1.0
+X-DCOP-ServiceType=none
+X-KDE-SubstituteUID=false
+X-KDE-Username=

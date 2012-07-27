@@ -1,0 +1,18 @@
+[Desktop Entry]
+Name=rxbag
+GenericName=Bag Viewer
+Comment=Bag file viewer for ROS
+
+Icon=ros-rx
+
+Exec=bash -i -c "zenity --title=\"rxbag\" --file-selection --multiple --separator=\" \" | xargs rxbag"
+Terminal=false
+
+Categories=Development;Science;Education;
+X-Ubuntu-Category-Secondary=Robotics;
+StartupNotify=true
+Type=Application
+Version=1.0
+X-DCOP-ServiceType=none
+X-KDE-SubstituteUID=false
+X-KDE-Username=

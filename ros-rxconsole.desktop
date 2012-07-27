@@ -1,0 +1,19 @@
+[Desktop Entry]
+Name=rxconsole
+GenericName=Console Log Viewer
+Comment=ROS graphical console
+
+Icon=ros-rx
+
+
+Exec=bash -i -c "rostopic list >& /dev/null && rxconsole || zenity --error --title \"rxconsole\" --text=\"Failed to contact master at $ROS_MASTER_URI\""
+Terminal=false
+
+Categories=Development;Science;Education;
+X-Ubuntu-Category-Secondary=Robotics;
+StartupNotify=true
+Type=Application
+Version=1.0
+X-DCOP-ServiceType=none
+X-KDE-SubstituteUID=false
+X-KDE-Username=

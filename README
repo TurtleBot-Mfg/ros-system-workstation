@@ -1,0 +1,8 @@
+These are system level files to support ROS workstations.
+Designed for Ubuntu Unity, but should be portable to any
+XDG complaint OS.
+
+This package provides
+ * a set of GUI desktop wrappers for common ROS tools
+ * supports mime types for .launch files
+ * ROS icons
