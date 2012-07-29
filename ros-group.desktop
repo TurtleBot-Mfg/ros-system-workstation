@@ -27,7 +27,7 @@ TargetEnvironment=Unity
 
 [Rviz Shortcut Group]
 Exec=bash -i rosrun rviz rviz
-Name=rviz
+Name=RViz
 GenericName=3D Robotics Visualization Tool
 Comment=3D Data Visualization tool for ROS
 Terminal=false
@@ -51,7 +51,7 @@ TargetEnvironment=Unity
 
 [Reconfigure Shortcut Group]
 Exec=bash -i -c "/opt/ros/\\`rosversion -d\\`/bin/rosrun dynamic_reconfigure reconfigure_gui"
-Name=dynamic_reconfigure
+Name=Dynamic Reconfigure
 GenericName=dynamic_reconfigure Configuration Tool
 Comment=Configuration Tool for ROS Node Parameters
 Terminal=false
