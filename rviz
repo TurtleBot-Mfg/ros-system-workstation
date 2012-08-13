@@ -1,0 +1,3 @@
+#!/bin/bash
+source /etc/ros/setup.bash
+rosrun rviz rviz

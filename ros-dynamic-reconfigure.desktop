@@ -5,7 +5,7 @@ Comment=Configuration Tool for ROS Node Parameters
 
 Icon=ros-tool
 
-Exec=bash -i rosrun dynamic_reconfigure reconfigure_gui
+Exec=ros-dynamic-reconfigure
 Terminal=false
 
 Categories=Development;Science;Education;

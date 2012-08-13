@@ -3,7 +3,7 @@ Name=ROS
 GenericName=ROS
 Comment=Robot Operating System
 Icon=ros-tool
-Exec=bash -i -c "rostopic list >& /dev/null && rxconsole || zenity --error --title \"rxconsole\" --text=\"Failed to contact master at $ROS_MASTER_URI\""
+Exec=bash -i ros-rxconsole
 Terminal=false
 Keywords=Science;Education;Robotics;Robot;
 Categories=Development;Science;Education;
@@ -14,45 +14,28 @@ Version=1.0
 X-DCOP-ServiceType=none
 X-KDE-SubstituteUID=false
 X-KDE-Username=
+Actions=NetworkID;Rviz;RXConsole;Reconfigure;
 
-X-Ayatana-Desktop-Shortcuts=NetworkID;Rviz;Gazebo;RXConsole;Reconfigure;
-
-[NetworkID Shortcut Group]
+[Desktop Action NetworkID]
 Exec=bash -i -c ros-network-id
+Icon=ros-tool
 Name=ROS Network ID
-GenericName=Robot Network Identification
-Comment=Provides the ROS Master URI
-Terminal=false
-TargetEnvironment=Unity
+OnlyShowIn=Unity;
 
-[Rviz Shortcut Group]
+[Desktop Action Rviz]
 Exec=bash -i rosrun rviz rviz
+Icon=ros-tool
 Name=RViz
-GenericName=3D Robotics Visualization Tool
-Comment=3D Data Visualization tool for ROS
-Terminal=false
-TargetEnvironment=Unity
+OnlyShowIn=Unity;
 
-[Gazebo Shortcut Group]
-Exec=bash -i -c "roslaunch gazebo_worlds empty_world.launch"
-Name=gazebo
-GenericName=Robotics Simulator
-Comment=Gazebo 3D simulator for Robotics
-Terminal=false
-TargetEnvironment=Unity
+[Desktop Action RXConsole]
+Exec=bash -i ros-rxconsole
+Icon=ros-tool
+Name=RXConsole
+OnlyShowIn=Unity;
 
-[RXConsole Shortcut Group]
-Exec=bash -i -c "rostopic list >& /dev/null && rxconsole || zenity --error --title \"rxconsole\" --text=\"Failed to contact master at $ROS_MASTER_URI\""
-Name=rxconsole
-GenericName=Console Log Viewer
-Comment=ROS graphical console
-Terminal=false
-TargetEnvironment=Unity
-
-[Reconfigure Shortcut Group]
-Exec=bash -i -c "/opt/ros/\\`rosversion -d\\`/bin/rosrun dynamic_reconfigure reconfigure_gui"
+[Desktop Action Reconfigure]
+Exec=ros-dynamic-reconfigure
+Icon=ros-tool
 Name=Dynamic Reconfigure
-GenericName=dynamic_reconfigure Configuration Tool
-Comment=Configuration Tool for ROS Node Parameters
-Terminal=false
-TargetEnvironment=Unity
+OnlyShowIn=Unity;
