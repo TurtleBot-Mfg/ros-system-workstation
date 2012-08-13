@@ -4,6 +4,7 @@ GenericName=ROS
 Comment=Robot Operating System
 Icon=ros-tool
 Exec=bash -i /usr/share/ros-system-workstation/rxconsole
+Path=/usr/share/ros-system-workstation
 Terminal=false
 Keywords=Science;Education;Robotics;Robot;
 Categories=Development;Science;Education;
@@ -35,7 +36,7 @@ Name=RXConsole
 OnlyShowIn=Unity;
 
 [Desktop Action Reconfigure]
-Exec=/usr/share/ros-system-workstation/dynamic-reconfigure
+Exec=bash -i /usr/share/ros-system-workstation/dynamic-reconfigure
 Icon=ros-tool
 Name=Dynamic Reconfigure
 OnlyShowIn=Unity;

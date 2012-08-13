@@ -1,3 +1,11 @@
+ros-system-workstation (0.0.2~1.gbp8d9af9) UNRELEASED; urgency=low
+
+  ** SNAPSHOT build @8d9af9e012689bf75b78e73b70ed33d7044fe395 **
+
+  * Depending on python-rosdep & python-rosinstall
+
+ -- I Heart Engineering <code@iheartengineering.com>  Mon, 13 Aug 2012 10:25:42 -0400
+
 ros-system-workstation (0.0.2~1.gbpbe91b5) UNRELEASED; urgency=low
 
   ** SNAPSHOT build @be91b56fc518f8bff5a13193687afd230750802e **
