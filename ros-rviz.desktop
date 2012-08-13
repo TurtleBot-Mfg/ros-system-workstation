@@ -5,7 +5,7 @@ Comment=3D Data Visualization tool for ROS
 
 Icon=ros-rviz
 
-Exec=bash -i rosrun rviz rviz
+Exec=bash -i /usr/share/ros-system-workstation/rviz
 Terminal=false
 
 Categories=Development;Science;Education;

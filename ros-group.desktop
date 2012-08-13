@@ -3,7 +3,7 @@ Name=ROS
 GenericName=ROS
 Comment=Robot Operating System
 Icon=ros-tool
-Exec=bash -i ros-rxconsole
+Exec=bash -i /usr/share/ros-system-workstation/rxconsole
 Terminal=false
 Keywords=Science;Education;Robotics;Robot;
 Categories=Development;Science;Education;
@@ -23,19 +23,19 @@ Name=ROS Network ID
 OnlyShowIn=Unity;
 
 [Desktop Action Rviz]
-Exec=bash -i rosrun rviz rviz
+Exec=bash -i /usr/share/ros-system-workstation/rviz
 Icon=ros-tool
 Name=RViz
 OnlyShowIn=Unity;
 
 [Desktop Action RXConsole]
-Exec=bash -i ros-rxconsole
+Exec=bash -i /usr/share/ros-system-workstation/rxconsole
 Icon=ros-tool
 Name=RXConsole
 OnlyShowIn=Unity;
 
 [Desktop Action Reconfigure]
-Exec=ros-dynamic-reconfigure
+Exec=/usr/share/ros-system-workstation/dynamic-reconfigure
 Icon=ros-tool
 Name=Dynamic Reconfigure
 OnlyShowIn=Unity;

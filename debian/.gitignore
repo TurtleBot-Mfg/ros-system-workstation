@@ -1,4 +1,5 @@
 ros-system-workstation/
+*.debhelper
 ros-system-workstation.debhelper.log
 ros-system-workstation.substvars
 files

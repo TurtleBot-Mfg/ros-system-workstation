@@ -1,3 +1,12 @@
+ros-system-workstation (0.0.2~1.gbpd05c46) UNRELEASED; urgency=low
+
+  ** SNAPSHOT build @d05c4667d8ed457c14d0ecce637fbdb10bbe70dd **
+
+  * Text formatting for Unity launcher items
+  * Dropping gazebo support for now, working to patch #2 and #3
+
+ -- I Heart Engineering <code@iheartengineering.com>  Mon, 13 Aug 2012 05:08:50 -0400
+
 ros-system-workstation (0.0.1) precise; urgency=low
 
   * Initial release!

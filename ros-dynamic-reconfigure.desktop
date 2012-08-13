@@ -1,11 +1,11 @@
 [Desktop Entry]
 Name=dynamic_reconfigure
-GenericName=dynamic_reconfigure Configuration Tool
+GenericName=Dynamic Reconfigure Configuration Tool
 Comment=Configuration Tool for ROS Node Parameters
 
 Icon=ros-tool
 
-Exec=ros-dynamic-reconfigure
+Exec=/usr/share/ros-system-workstation/dynamic-reconfigure
 Terminal=false
 
 Categories=Development;Science;Education;
