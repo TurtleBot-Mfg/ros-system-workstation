@@ -7,6 +7,6 @@ Standards-Version: 3.9.3
 
 Package: ros-system-workstation
 Architecture: all
-Depends: ${misc:Depends}, ${python:Depends}, ros-fuerte-ros
+Depends: ${misc:Depends}, ${python:Depends}, ros-fuerte-ros, python-rosinstall, python-rosdep
 Description: ROS Workstation
  ROS Workstation Environment

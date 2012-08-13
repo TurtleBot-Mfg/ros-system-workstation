@@ -1,3 +1,11 @@
+ros-system-workstation (0.0.2~1.gbpbe91b5) UNRELEASED; urgency=low
+
+  ** SNAPSHOT build @be91b56fc518f8bff5a13193687afd230750802e **
+
+  * Fixes to pass desktop-file-validate
+
+ -- I Heart Engineering <code@iheartengineering.com>  Mon, 13 Aug 2012 06:00:08 -0400
+
 ros-system-workstation (0.0.2~1.gbp35ab31) UNRELEASED; urgency=low
 
   ** SNAPSHOT build @35ab3100509cb2e847f3bf033b581123050a2f97 **
