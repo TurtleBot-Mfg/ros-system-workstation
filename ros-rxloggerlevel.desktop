@@ -1,11 +1,11 @@
 [Desktop Entry]
 Name=rxloggerlevel
-GenericName=Log Level manager
-Comment=Modifies the logger levels for ROS console
+GenericName=Log Level Manager
+Comment=ROS Log Level Manager
 
 Icon=ros-rx
 
-Exec=bash -i -c "rostopic list >& /dev/null && rxloggerlevel || zenity --error --title \"rxloggerlevel\" --text=\"Failed to contact master at $ROS_MASTER_URI\""
+Exec=bash -i /usr/share/ros-system-workstation/rxloggerlevel
 Terminal=false
 
 Categories=Development;Science;Education;

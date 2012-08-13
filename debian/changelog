@@ -1,3 +1,11 @@
+ros-system-workstation (0.0.2~1.gbp35ab31) UNRELEASED; urgency=low
+
+  ** SNAPSHOT build @35ab3100509cb2e847f3bf033b581123050a2f97 **
+
+  * Additional fixes for Exec issues
+
+ -- I Heart Engineering <code@iheartengineering.com>  Mon, 13 Aug 2012 05:50:03 -0400
+
 ros-system-workstation (0.0.2~1.gbpd05c46) UNRELEASED; urgency=low
 
   ** SNAPSHOT build @d05c4667d8ed457c14d0ecce637fbdb10bbe70dd **

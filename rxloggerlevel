@@ -1,0 +1,10 @@
+#!/bin/bash
+source /etc/ros/setup.bash
+
+`rostopic list >& /dev/null`
+
+if [ $? -ne 0 ]; then
+	zenity --error --title "RXLoggerLevel" --text="Failed to contact master at $ROS_MASTER_URI"
+else
+	rxloggerlevel
+fi
