@@ -1,3 +1,11 @@
+ros-system-workstation (0.0.2~1.gbp8aca05) UNRELEASED; urgency=low
+
+  ** SNAPSHOT build @8aca05e99452d66c33b8af4c330e91d1b1650c91 **
+
+  * Minor edits for style
+
+ -- I Heart Engineering <code@iheartengineering.com>  Mon, 13 Aug 2012 18:34:52 -0400
+
 ros-system-workstation (0.0.2~1.gbp8d9af9) UNRELEASED; urgency=low
 
   ** SNAPSHOT build @8d9af9e012689bf75b78e73b70ed33d7044fe395 **
