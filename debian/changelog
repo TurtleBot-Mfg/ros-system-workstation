@@ -1,3 +1,9 @@
+ros-system-workstation (0.0.2) precise; urgency=low
+
+  * debian/changelog
+
+ -- I Heart Engineering <code@iheartengineering.com>  Wed, 15 Aug 2012 07:56:23 -0400
+
 ros-system-workstation (0.0.2~1.gbp8aca05) UNRELEASED; urgency=low
 
   ** SNAPSHOT build @8aca05e99452d66c33b8af4c330e91d1b1650c91 **
